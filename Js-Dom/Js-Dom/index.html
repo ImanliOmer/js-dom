@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container d-flex justify-content-around py-5 px-5 col-12">
+        <div id="firstDiv" class="row col-3 py-5">List 1
+            <ul id="first-list" class="list-group">
+                <li class="list-group-item">C#</li>
+                <li class="list-group-item">JS</li>
+                <li class="list-group-item">C++</li>
+
+            </ul>
+        </div>
+        <div id="secondDiv" class="row col-3 py-5">List 2
+            <ul id="second-list" class="list-group">
+                <li class="list-group-item">C#</li>
+                <li class="list-group-item">Ruby</li>
+                <li class="list-group-item">Go</li>
+            </ul>
+        </div>
+        <div id="thirdDiv" class="row col-3 py-5">
+
+        </div>
+    </div>
+    <button id="joinList" style="cursor: pointer" class="py-5 px-5 w-100">Join List</button>
+
+
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <input id="first-input" value="10" class="w-25 my-3 px-2" placeholder="Number 1" type="number">
+            <input id="second-input" value="5" class="w-25 my-3 px-2" placeholder="Number 2" type="number">
+        </div>
+        <div class="row d-flex justify-content-around my-5 ">
+            <button id="plus" class="col-2 btn btn-primary">Toplama</button>
+            <button id="minus" class="col-2 btn btn-danger">Cixma</button>
+            <button id="multiply" class="col-2 btn btn-success">Vurma</button>
+            <button id="divide" class="col-2 btn btn-info">Bolme</button>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <input id="result-input" placeholder="Netice Burada" class="w-50 my-5 px-2" type="text">
+        </div>
+    </div>
+</body>
+
+<script src="/assets/js/script.js"></script>
+
+</html>
